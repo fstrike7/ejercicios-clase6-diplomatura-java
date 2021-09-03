@@ -13,7 +13,7 @@ public class Ejercicio15{
         for (int i=0; i<20; i++){
             System.out.println("Numero " + (i+1) + ": ");
             numeros[i] = escaner.nextInt();
-            if (numeros[i] % 3 == 0 && numeros[i] > 50 && numeros[i] < 100){
+            if (numeros[i] % 2 != 0 && numeros[i] > 50 && numeros[i] < 100){
                 cantidadCondicion += 1;
             }
         }

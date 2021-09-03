@@ -10,7 +10,8 @@ public class Ejercicio5 {
         Scanner escaner = new Scanner(System.in);
         System.out.println("Ingrese perímetro de un cuadrado: ");
         int perimetro = escaner.nextInt();
-        int volumenCubo = (perimetro*perimetro*perimetro);
+        float lado = perimetro/4; // Se divide para sacar cada lado del perimetro.
+        float volumenCubo = (lado*lado*lado); // Se eleva al cubo un lado.
         System.out.println("Volumen del cubo: " + volumenCubo);
 
         escaner.close();
